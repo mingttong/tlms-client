@@ -1,0 +1,71 @@
+/*
+    清除浏览器默认样式
+*/
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color: inherit;
+    text-decoration: inherit; 
+    cursor: inherit;
+}
+
+/*
+    表格样式
+*/
+
+// 表头
+.table-header {
+    color: #000000;
+    font-size: 18px;
+}
+// 表格元素
+.table-cell {
+    color: #000000;
+}
+
+
+/*
+    按钮控件列表
+*/
+.action-list {
+    margin: 20px 0;
+}
+
+/*
+    更改element默认样式
+    作用于菜单栏
+*/
+
+.menuBar {
+    .el-tree {
+        background-color: #545C64;
+        color: #FFFFFF;
+    }
+    .el-tree-node:focus>.el-tree-node__content, .el-tree-node__content:hover {
+        background-color: #434A50 !important;
+    }
+    .el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+        background-color: #434A50 !important;
+    }
+    // tree组件超出宽度的不显示
+    .el-tree-node>.el-tree-node__children {
+        overflow: visible;
+    }
+}
+
+// 警告字色
+span.warning {
+    color: #E6A23C;
+}
+// 危险字色
+span.danger {
+    color: #F56C6C;
+}
+
+// 链接样式
+a {
+    color: #409EFF;
+}
+a:hover {
+    opacity: .8;
+    cursor: pointer;
+}
