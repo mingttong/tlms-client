@@ -8,6 +8,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     cursor: inherit;
 }
 
+html {
+    height: 100%;
+    body {
+        height: 100%;
+    }
+}
+
 /*
     表格样式
 */
@@ -50,6 +57,10 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     .el-tree-node>.el-tree-node__children {
         overflow: visible;
     }
+}
+
+.el-menu {
+    border: none;
 }
 
 // 警告字色
